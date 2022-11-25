@@ -7,7 +7,7 @@ import { build } from "vite";
 
 export default {
   base: "./",
-  assertsDir: "assets",
+  assetsDir: "assets",
   plugins: [md()],
   vueCustomBlockTransforms: {
     demo: (options) => {
